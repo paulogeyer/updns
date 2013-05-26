@@ -1,3 +1,13 @@
+# update afraid.org Dynamic DNS
+#
+# Example .updns file
+# [Router]
+# host=192.168.1.1
+# user=admin
+# pass=pass
+# [Config]
+# urls=[http://freedns.afraid.org/dynamic/update.php?yourcode,http://freedns.afraid.org/dynamic/update.php?anothercode]
+
 import urllib2, sys, re, base64, ConfigParser, os
 
 def check_ip():
